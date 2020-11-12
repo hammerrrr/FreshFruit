@@ -74,9 +74,5 @@ namespace FreshFruit
             ListBoxBucket.Items.Refresh();
         }
 
-        VideoDrawing BucketEventListener.onFailed(string msg)
-        {
-            throw new NotImplementedException();
-        }
     }
 }
