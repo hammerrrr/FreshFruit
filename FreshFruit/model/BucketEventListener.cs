@@ -10,6 +10,6 @@ namespace FreshFruit.model
     interface BucketEventListener
     {
         void onSucceed(string msg);
-        VideoDrawing onFailed(string msg);
+        void onFailed(string msg);
     }
 }
