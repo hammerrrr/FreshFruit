@@ -69,10 +69,5 @@ namespace FreshFruit
             ListBoxBucket.Items.Refresh();
         }
 
-        void BucketEventListener.onSucceed(string msg)
-        {
-            ListBoxBucket.Items.Refresh();
-        }
-
     }
 }
